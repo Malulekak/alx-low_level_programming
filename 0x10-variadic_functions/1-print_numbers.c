@@ -13,21 +13,6 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	#include <stdarg.h>
-#include <stdio.h>
-#include "variadic_functions.h"
-
-/**
- * print_numbers - Entry Point
- * @separator: Print separator if it's not NULL and
- * not the last number
- * @n: elements to be printed
- *
- * Return: void
- */
-
-void print_numbers(const char *separator, const unsigned int n, ...)
-{
 	va_list args;
 	unsigned int i;
 
